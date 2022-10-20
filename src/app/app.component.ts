@@ -6,15 +6,9 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name = 'Angular Recalculando' + VERSION.major;
-}
-export class Micro {
-
+  name = '-----> Esta en app.component.ts Angular Recalculando' + VERSION.major;
   primer = ' Micro Linea A';
-
-}
-export class DobleM {
-
-  primer = ' Dos Pisos';
-
+  lineaA = 'Subte Linea A';
+  lineaB = 'Subte Linea B';
+  lineaC = 'Subte Linea C';
 }

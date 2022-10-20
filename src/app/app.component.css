@@ -2,12 +2,22 @@ p {
     font-family:cursive;
     color: red;
     font-size: 30px;
-    background-color: rgb(6, 99, 99);
-    
-   }
-
+    background-color: rgb(6, 99, 99);    
+   }   
 hello {
   color: blue;
-  font-style: oblique;
-  
+  font-style: oblique;   
 }
+micro2{
+  font-family:cursive;
+  color: rgb(128, 0, 96);
+  font-size: 15px;
+  background-color: rgb(6, 99, 99);
+}
+micro{
+  font-family:cursive;
+  color: rgb(128, 0, 96);
+  font-size: 15px;
+  background-color: rgb(6, 99, 99);
+}
+
