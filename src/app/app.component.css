@@ -1,23 +1,15 @@
 p {
     font-family:cursive;
-    color: red;
+    color: rgb(145, 197, 23);
     font-size: 30px;
-    background-color: rgb(6, 99, 99);    
-   }   
-hello {
-  color: blue;
-  font-style: oblique;   
-}
-micro2{
-  font-family:cursive;
-  color: rgb(128, 0, 96);
+    background-color: rgb(1, 39, 39);    
+    text-align: left;
+   }
+
+.Hello-Micro {
+  color: rgb(194, 88, 18);
   font-size: 15px;
-  background-color: rgb(6, 99, 99);
-}
-micro{
-  font-family:cursive;
-  color: rgb(128, 0, 96);
-  font-size: 15px;
-  background-color: rgb(6, 99, 99);
-}
+  font-style: oblique; 
+  background-color: hsl(0, 1%, 21%); 
+ }
 

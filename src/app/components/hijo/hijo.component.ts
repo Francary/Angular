@@ -1,5 +1,5 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { DataService } from 'src/app/services/data.service';
+import { Component, EventEmitter, Input, NgModule, OnInit, Output } from '@angular/core';
+//import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-hijo',
@@ -8,7 +8,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class HijoComponent implements OnInit {
 
-  @Input() nombreHijo: string =' sin nombre...';
+  @Input() nombreHijo: string =' Pasajero';
   @Output() cambioNombreHijo = new EventEmitter<string>();
 
   //constructor( private dataService: DataService) { }
