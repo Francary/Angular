@@ -1,11 +1,14 @@
+<app-navbar></app-navbar>
+
 <h1>Home Component</h1>
 <hr>
 <h3> {{nombre}} </h3>
 <button class = "btn btn-primary" (click)= "cambiarNombre()" >
-    Cambiar Nombre
+    Cambiar Nombre 2
 </button>
 <hr>
 <app-hijo   [nombreHijo] = "nombre" 
             (cambioNombreHijo)= "hijoCambioNombre ($event)">
          
 </app-hijo>
+ 

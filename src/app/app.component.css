@@ -13,3 +13,7 @@ p {
   background-color: hsl(0, 1%, 21%); 
  }
 
+ nav a {
+  padding: 5px 10px;
+ }
+

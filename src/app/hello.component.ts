@@ -1,11 +1,18 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit, VERSION } from '@angular/core';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'hello',
-  template: `<h1> Esta en hello.component.ts <br> Hello Argentina Programa {{name}}!</h1>`,
+  templateUrl:  './hello.micro.component.html',
   styleUrls: ['./app.component.css']
 })
-export class HelloComponent  {
-  @Input() name: string | undefined;
-}
-
+export class HelloComponent implements OnInit {
+  
+  @Input() 
+  namehello: string = '--> Esta en hello.component.ts ' + VERSION.major;
+  Linea140: string = 'Linea 140';
+  constructor() { }
+  
+  ngOnInit(): void {
+  }
+ }

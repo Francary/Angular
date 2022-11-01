@@ -1,19 +1,40 @@
+<!--<p class="Hello-Micro"> 
+  <hello  namehello="{{ name }}"></hello>
+  <micro2 primer ="{{ primer }}"></micro2>
+</p> -->
+ 
+ <p> 
+    ----------> Pracita Angular  app.component.html  <----------
+  </p>
 
-<p class="Hello-Micro">
-<hello  name="{{ name }}"></hello>
-<micro2 primer ="{{ primer }}"></micro2>
-</p>
+ <nav>
+  <a routerLink ="/barra" >
+    <button class = "btn btn-primary">
+      Index
+     </button>
+  </a>
 
-<app-navbar></app-navbar>
-
-<div class="container mt-5">
-<app-home></app-home>
-</div>
-
-<br>
-<p>
-  Esta en app.component.html <br>
+  <a routerLink ="/subte" >
+    <button class = "btn btn-primary">
+      Tomar un Subte
+    </button>
+  </a>
   
-  ----------> Pracita Angular  Lineas del Subte <----------
-</p>
-<app-subte></app-subte>
+  <a routerLink ="/home" >
+    <button class = "btn btn-primary">
+      Home + Hijo + Navbar
+    </button>
+  </a>
+  <a routerLink ="/hello" >
+    <button class = "btn btn-primary">
+      Hello
+    </button>
+  </a>
+
+  <a routerLink ="/formulario" >
+    <button class = "btn btn-primary">
+      Formulario
+    </button>
+  </a>
+</nav> 
+<router-outlet></router-outlet>

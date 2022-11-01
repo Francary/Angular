@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HijoComponent } from './hijo/hijo.component';
 import { SubteComponent } from './subte/subte.component';
+import { BarraComponent } from './barra/barra.component';
 
 
 
@@ -11,15 +12,17 @@ import { SubteComponent } from './subte/subte.component';
     NavbarComponent,
     HijoComponent,
     SubteComponent,
+    BarraComponent,
        
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports:[
     NavbarComponent,
     HijoComponent,
     SubteComponent,
+    BarraComponent,
   ]
 })
 export class ComponentsModule { }
