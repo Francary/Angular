@@ -4,6 +4,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HijoComponent } from './hijo/hijo.component';
 import { SubteComponent } from './subte/subte.component';
 import { BarraComponent } from './barra/barra.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -17,6 +18,7 @@ import { BarraComponent } from './barra/barra.component';
   ],
   imports: [
     CommonModule,
+    AppRoutingModule
   ],
   exports:[
     NavbarComponent,

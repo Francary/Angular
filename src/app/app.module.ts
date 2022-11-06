@@ -11,7 +11,7 @@ import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, ComponentsModule,PagesModule,AppRoutingModule, ReactiveFormsModule],
+  imports:      [ BrowserModule, FormsModule, ComponentsModule,PagesModule,AppRoutingModule, ReactiveFormsModule, ],
   declarations: [ Micro2, AppComponent, HelloComponent, LoginComponent],
   bootstrap:    [ AppComponent,ComponentsModule]
 })

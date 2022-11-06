@@ -13,7 +13,9 @@ import { BarraComponent } from '../components/barra/barra.component';
     ComponentsModule
   ],
   exports:[
-    HomeComponent
+    HomeComponent,
+    BarraComponent
+
   ]
 })
 export class PagesModule { }
